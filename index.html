@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Intikhāb Khursheed – Web Developer</title>
+  <meta name="description" content="Portfolio of Intikhāb Khursheed – Full-Stack Developer (MERN, Angular). Projects, experience, and contact." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="icon" href="/assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <nav class="nav">
+      <a class="logo" href="#">IK</a>
+      <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Web Developer</p>
+          <h1 id="name">Intikhāb Khursheed</h1>
+          <p id="summary" class="lead"></p>
+          <div class="cta">
+            <a id="resumeLink" class="btn primary" href="#" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="headshot-wrap">
+          <img id="headshot" src="/assets/images/profile.jpg" alt="Headshot of Intikhāb Khursheed" onerror="this.onerror=null;this.src='/assets/images/placeholder.svg';" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p id="aboutText"></p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div id="projectsGrid" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Experience</h2>
+        <div id="experienceList" class="timeline"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul id="educationList" class="edu-list"></ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="contact">
+          <a id="emailLink" class="btn primary" href="#">Email Me</a>
+          <div class="socials" id="socialLinks"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="section">
+    <div class="container footer">
+      <span id="location">Islamabad, Pakistan</span>
+      <span>© <span id="year"></span> Intikhāb Khursheed</span>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" type="module"></script>
+</body>
+</html>

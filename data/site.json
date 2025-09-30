@@ -1,0 +1,96 @@
+{
+  "name": "INTIKHAB KHURSHEED",
+  "role": "Web Developer",
+  "summary": "Full-Stack Developer with 1.5 years of experience in MERN stack (MongoDB, Express.js, React, Node.js) and Angular. Skilled in building scalable web applications, REST API integration, and responsive UI development. Passionate about clean, efficient, and user-focused solutions.",
+  "about": "I build fast, reliable web apps using React/Next.js and Angular on the front-end, with Node/Express and MongoDB/MySQL on the back-end. I enjoy translating product ideas into robust, accessible interfaces.",
+  "location": "Peshawar, Pakistan",
+  "email": "intikhabkhursheed@gmail.com",
+  "phone": "+92 335 9919883",
+  "resume_url": "/assets/Intikhab%20khursheed%20Resume.pdf",
+  "headshot": "/assets/images/profile.jpg",
+  "skills": [
+    { "category": "Frontend", "items": ["JavaScript (ES6+)", "React.js", "Next.js", "Angular", "TypeScript", "HTML5", "CSS3", "SCSS", "TailwindCSS"] },
+    { "category": "Backend", "items": ["Node.js", "Express.js", "REST API integration"] },
+    { "category": "Databases", "items": ["MongoDB", "MySQL"] },
+    { "category": "Tools & Deployment", "items": ["Git", "GitHub", "Firebase", "Vercel", "Docker (basic)", "Figma", "API Testing"] },
+    { "category": "Soft Skills", "items": ["Team Collaboration", "Agile Development", "Problem Solving", "Debugging", "Cross-browser Compatibility"] }
+  ],
+  "projects": [
+    {
+      "title": "CampaignForge",
+      "description": "A modern campaign management platform built with React, TypeScript, and Node.js.",
+      "features": [
+        "Secure session-based authentication with protected routes",
+        "Dashboard with campaign metrics and analytics",
+        "Create and manage marketing campaigns",
+        "Lead/contact management",
+        "Task assignment and tracking",
+        "Analytics and reporting"
+      ],
+      "tech": ["React 18", "TypeScript", "Vite", "TanStack Query", "Wouter", "TailwindCSS", "shadcn/ui", "Node.js", "Express", "MongoDB"],
+      "live": "",
+      "repo": "https://github.com/IntikhabKhursheed/CampaignForge"
+    },
+    {
+      "title": "TaskFlow – Smart Task Manager",
+      "description": "Modern task management app with Kanban board, task list, real-time Firebase sync, and a polished Ant Design UI.",
+      "features": [
+        "Firebase Auth + Firestore with real-time updates (onSnapshot)",
+        "Kanban board with drag-and-drop between columns",
+        "Quick Add, Task modal and edit drawer",
+        "Task List with search, status/priority filters and row actions",
+        "Overdue / due soon badges"
+      ],
+      "tech": ["Vite", "React 18", "TypeScript", "Ant Design", "Firebase Auth", "Firestore", "@hello-pangea/dnd", "react-hook-form", "dayjs"],
+      "live": "",
+      "repo": "https://github.com/IntikhabKhursheed/TaskFlow-SmartTaskManager"
+    },
+    {
+      "title": "Invoice Dashboard Design",
+      "description": "Full-stack invoice management platform for freelancers and small businesses to create, manage, and track invoices with a clean, responsive dashboard.",
+      "features": [
+        "Create, edit and manage invoices",
+        "Client management and payment tracking",
+        "Dashboard with summaries and status tracking",
+        "Responsive, intuitive UI",
+        "Vercel-ready deployment"
+      ],
+      "tech": ["React", "Next.js", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Vercel"],
+      "live": "",
+      "repo": "https://github.com/IntikhabKhursheed/StreamlineInvoice"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Developer",
+      "company": "Troon Technologies",
+      "location": "Islamabad, Pakistan",
+      "dates": "Sep 2024 – Aug 2025",
+      "bullets": [
+        "Developed responsive web applications using Angular, TypeScript, HTML, SCSS, and JavaScript.",
+        "Integrated APIs to deliver real-time data and enhanced user experience.",
+        "Collaborated with design and backend teams to ensure seamless functionality."
+      ]
+    },
+    {
+      "title": "Full-Stack Developer (MERN)",
+      "company": "Codnocrats Innovating Solution",
+      "location": "Peshawar, Pakistan",
+      "dates": "Mar 2024 – Sep 2024",
+      "bullets": [
+        "Built and maintained MERN stack applications with clean and scalable code.",
+        "Developed and integrated REST APIs for robust backend communication.",
+        "Improved application performance and UI responsiveness."
+      ]
+    }
+  ],
+  "education": [
+    { "title": "MCS Computer Science", "school": "Qurtuba University, Peshawar", "dates": "2022 – 2024" },
+    { "title": "BSc Computer Science", "school": "Govt Degree College, Peshawar", "dates": "2020 – 2022" },
+    { "title": "Diploma in Information Technology (DIT)", "school": "Smart Learning Academy, Peshawar", "dates": "2021 – 2022" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/intikhab-khursheed-afridi-028a51285/" },
+    { "label": "GitHub", "url": "https://github.com/IntikhabKhursheed" }
+  ]
+}
