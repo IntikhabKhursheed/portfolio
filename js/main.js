@@ -29,7 +29,7 @@ function renderBasics(d) {
     resume.classList.remove('hidden');
     resume.href = d.resume_url;
     // If it's a local PDF path, hint download
-    if (d.resume_url.endsWith('.pdf') && d.resume_url.startsWith('/')) {
+    if (d.resume_url.endsWith('.pdf')) {
       resume.setAttribute('download', 'Intikhab-Khursheed-Resume.pdf');
     }
   } else {
@@ -120,7 +120,7 @@ function renderSocials(d) {
 async function init() {
   setThemeFromPref();
   document.getElementById('themeToggle').addEventListener('click', toggleTheme);
-  const res = await fetch('/data/site.json');
+  const res = await fetch('data/site.json');
   const data = await res.json();
   state.data = data;
   renderBasics(data);
