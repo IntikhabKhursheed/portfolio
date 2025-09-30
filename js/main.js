@@ -1,5 +1,12 @@
 const state = { data: null };
 
+function fixPath(p) {
+  if (!p) return p;
+  // Remove a leading slash so GitHub Pages subpaths work (e.g., /portfolio)
+  if (p.startsWith('/')) return p.slice(1);
+  return p;
+}
+
 function setThemeFromPref() {
   const saved = localStorage.getItem('theme');
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -27,7 +34,7 @@ function renderBasics(d) {
   const resume = document.getElementById('resumeLink');
   if (d.resume_url && d.resume_url.trim() !== '') {
     resume.classList.remove('hidden');
-    resume.href = d.resume_url;
+    resume.href = fixPath(d.resume_url);
     // If it's a local PDF path, hint download
     if (d.resume_url.endsWith('.pdf')) {
       resume.setAttribute('download', 'Intikhab-Khursheed-Resume.pdf');
@@ -39,7 +46,7 @@ function renderBasics(d) {
   }
   const email = document.getElementById('emailLink');
   if (d.email) email.href = `mailto:${d.email}`;
-  if (d.headshot) document.getElementById('headshot').src = d.headshot;
+  if (d.headshot) document.getElementById('headshot').src = fixPath(d.headshot);
 }
 
 function renderSkills(d) {
@@ -120,7 +127,7 @@ function renderSocials(d) {
 async function init() {
   setThemeFromPref();
   document.getElementById('themeToggle').addEventListener('click', toggleTheme);
-  const res = await fetch('data/site.json');
+  const res = await fetch(`data/site.json?ts=${Date.now()}`);
   const data = await res.json();
   state.data = data;
   renderBasics(data);
