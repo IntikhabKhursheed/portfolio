@@ -6,8 +6,8 @@
   "location": "Peshawar, Pakistan",
   "email": "intikhabkhursheed@gmail.com",
   "phone": "+92 335 9919883",
-  "resume_url": "/assets/Intikhab%20khursheed%20Resume.pdf",
-  "headshot": "/assets/images/profile.jpg",
+  "resume_url": "assets/Intikhab%20khursheed%20Resume.pdf",
+  "headshot": "assets/images/profile.jpg",
   "skills": [
     { "category": "Frontend", "items": ["JavaScript (ES6+)", "React.js", "Next.js", "Angular", "TypeScript", "HTML5", "CSS3", "SCSS", "TailwindCSS"] },
     { "category": "Backend", "items": ["Node.js", "Express.js", "REST API integration"] },
