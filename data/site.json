@@ -58,6 +58,36 @@
       "tech": ["React", "Next.js", "Vite", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "Vercel"],
       "live": "",
       "repo": "https://github.com/IntikhabKhursheed/StreamlineInvoice"
+    },
+    {
+      "title": "GRT Health – Healthcare Management Platform",
+      "description": "Comprehensive healthcare platform for patient monitoring and medical data management with real-time health metrics and automated reporting.",
+      "features": [
+        "Responsive patient monitoring dashboards with real-time data visualization",
+        "Patient vital signs and medical metrics tracking",
+        "Optimized performance with 40% faster dashboard load time",
+        "Seamless .NET Core API integration",
+        "Accessible and intuitive interfaces for medical staff",
+        "Comprehensive error handling and data validation for critical healthcare data"
+      ],
+      "tech": ["Angular", "TypeScript", "RxJS", "SCSS", ".NET Core APIs", "RESTful Services", "Lazy Loading"],
+      "live": "",
+      "repo": ""
+    },
+    {
+      "title": "DHQ Hospital Management System",
+      "description": "Cross-platform desktop application for DHQ Hospital Bajour to digitize patient management, appointment scheduling, and medical records with offline-first architecture.",
+      "features": [
+        "Complete desktop application for Windows and macOS compatibility",
+        "Offline-first architecture with local data storage",
+        "Patient registration and appointment scheduling modules",
+        "Medical history tracking and management",
+        "Intuitive UI designed for hospital staff with varying technical expertise",
+        "Data export/import capabilities for backup and reporting"
+      ],
+      "tech": ["Electron.js", "JavaScript", "HTML5", "CSS3", "Node.js", "Local Storage API"],
+      "live": "",
+      "repo": ""
     }
   ],
   "experience": [
@@ -76,7 +106,7 @@
       "title": "Full-Stack Developer (MERN)",
       "company": "Codnocrats Innovating Solution",
       "location": "Peshawar, Pakistan",
-      "dates": "Mar 2024 – Sep 2024",
+      "dates": "Mar 2023 – Sep 2024",
       "bullets": [
         "Built and maintained MERN stack applications with clean and scalable code.",
         "Developed and integrated REST APIs for robust backend communication.",
